@@ -29,6 +29,12 @@ export default function host(key) {
     },
     'counter':{
       create: `${host}/api/counter/post`,
+    },
+    'for-request':{
+      create: `${host}/api/sharepoint/list`,
+    },
+    'login':{
+      create: `${host}/api/sharepoint/login`,
     }
     // 'person':{
     //   search: `${host}/rest/JDBC_Tutorial/test_retrieve`
